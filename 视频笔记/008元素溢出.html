@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .con{
+            width: 500px;
+            height: 300px;
+            border: 1px solid #333;
+            margin: 50px auto 0;
+            /*
+            隐藏多出的部分
+            overflow: hidden;
+            */
+
+            /*
+            设置横向纵向滚动条，不管内容是否溢出
+            overflow: scroll;
+            */
+            /*如果内容被修剪就显示滚动条，横多显示横向，纵多显示纵向*/
+            overflow: auto;
+        }
+
+        .box{
+            width: 400px;
+            height: 600px;
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+  <div class="con">
+      <div class="box">dsada了啊非法的的撒多所多所所多风味发酵乳 仍无法微风我</div>
+  </div>
+</body>
+</html>

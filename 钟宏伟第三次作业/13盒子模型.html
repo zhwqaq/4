@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒子模型</title>
+    <style type="text/css">
+        .con{
+            width: 260px;
+            height: 150px;
+            border: 1px solid rgb(58,101,135);
+            margin: 50px;
+            overflow: hidden;
+        }
+
+        .con h4{
+            width: 260px;
+            height: 30px;
+           text-indent: 20px;
+            color: white;
+            line-height: 30px;
+            background-color:rgb(58,101,135);
+            margin: 0px;
+        }
+        .con span{
+            height: 120px;
+            margin: 30px 20px;
+            text-indent: 5px;
+        }
+         .con span span{
+             margin-left: 88px;
+         }
+    </style>
+</head>
+<body>
+   <div class="con">
+      <h4>会员登录</h4>
+       <span>
+       <div>
+           <label for="username">&nbsp;&nbsp;&nbsp;&nbsp;姓名：</label>
+           <input type="text" name="username1" id="username1">
+       </div>
+       <div>
+           <label for="username">&nbsp;&nbsp;&nbsp;&nbsp;邮箱：</label>
+           <input type="text" name="username2" id="username2">
+       </div>
+       <div>
+           <label for="username">联系电话：</label>
+           <input type="number" name="username3" id="username3">
+       </div>
+           <span>
+                 <input type="submit" value="登录">
+           </span>
+
+           </span>
+   </div>
+</body>
+</html>

@@ -1,0 +1,149 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*网页头部导航样式开始*/
+.header_top,.header_middle,.header_search{
+	margin-left:auto;
+	margin-right:auto;
+	width:955px;
+	clear:both;
+}
+.header_top{
+	border:solid 1px #999;
+	background-image:url(../images/dd_header_bg.gif);
+	background-repeat:repeat-x;
+	height:24px;
+	}
+	.header_top_left{
+		float:left;
+		width:260px;
+		padding-left:10px;
+		line-height:28px;
+		}
+	*html .header_top_left{ /*only IE6*/
+		line-height:24px;
+		}
+	.header_top_right{
+		float:right;
+		padding-right:10px;
+		width:400px;
+		text-align:right;
+		}
+	.header_top_right li{
+		float:right;
+		margin-left:5px;
+		margin-top:5px;
+		}
+	.logo,.menu_left,.menu_right{
+	       float:left;
+		}
+	.logo{
+		width:130px;
+		padding-top:13px;
+		height:47px;
+		}
+
+/**导航开始**/
+    .menu_left{
+        margin-top: 30px;
+        background-color: rgb(240,240,240);
+	}
+    .menu_left ul{
+        width: 500px;
+        height: 28px;
+        border: 1px solid gray;
+        line-height: 28px;
+    }
+    .menu_left li{
+        display: inline-block;
+        text-decoration: none;
+    }
+
+ 
+
+/**导航结束**/
+
+
+
+	.menu_right{
+		padding-top:32px;
+		height:28px;
+		}
+	#menu_dull_red li{
+		float:left;
+		margin-left:5px;
+		text-align:center;
+		line-height:35px;
+		height:28px;
+		}
+	*html #menu_dull_red li{ /*only IE6*/
+		line-height:28px;
+		}
+	#menu_dull_red a,#menu_dull_red:hover{
+		color:#9B2B0F;
+		text-decoration:none;
+		font-weight:bold;
+		}
+	.menu_right_1{
+		background-image:url(../images/dd_header_1_a.jpg);
+		width:52px;
+		background-repeat:no-repeat;
+		}
+	.menu_right_2{
+		background-image:url(../images/dd_header_2_a.jpg);
+		width:39px;
+		background-repeat:no-repeat;
+		}
+	.menu_right_3{
+		background-image:url(../images/dd_header_3_a.jpg);
+		width:65px;
+		background-repeat:no-repeat;
+		}
+	.menu{
+		clear:both;
+		}
+	#menu_white{
+		float:left;
+		background-image:url(../images/dd_head_bg_mid.gif);
+		background-repeat:repeat-x;
+		background-position:0px -63px;
+		height:27px;
+		width:99%;
+		line-height:28px;
+		text-align:center;
+		color:#FFF;
+		}
+	.menu_mid_white,.menu_mid_white:hover{
+		color:#FFF;
+		padding:0px 4px 0px 4px;
+		}
+	.menu_first{
+	    background-image:url(../images/dd_head_bg_left.gif);
+	    background-repeat:no-repeat;
+	    background-position:0px -31px;
+	    height:27px;
+	    width:4px;
+	    float:left;
+		}
+	.menu_end{
+	      background-image:url(../images/dd_head_bg_right.gif);
+	      background-repeat:no-repeat;
+	      background-position:0px -31px;
+	      height:27px;
+	      width:4px;
+	      float:left;
+		}
+/*网页头部导航样式结束*/
+    .new{
+        width: 950px;
+        height: 28px;
+        border: 1px solid white;
+        background-color: rgb(235,235,235);
+        display: inline-block;
+        text-indent: 5px;
+    }
+    .new li{
+        display: inline-block;
+        font-size: 14px;
+    }
+ 

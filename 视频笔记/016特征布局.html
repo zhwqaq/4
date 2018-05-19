@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>特征布局</title>
+    <style type="text/css">
+           .new_list_con{
+               width: 600px;
+               height: 290px;
+               border: 1px solid #ddd;
+               margin: 50px auto 0;
+               overflow: hidden;
+           }
+
+        .new_list_con h3{
+            width: 560px;
+            height: 50px;
+            border-bottom: 1px solid #ddd;
+            margin: 0 auto;
+        }
+
+        .new_list_con h3 span{
+            display: inline-block;
+            height: 50px;
+            border-bottom: 2px solid red;
+            font: 18px/50px 'Microsoft yahei';
+            color: black;
+            padding: 0 15px;
+        }
+
+        .new_list_con ul{
+            list-style: none;
+            padding: 0px;
+            width: 560px;
+            height: 238px;
+            margin: 7px auto 0;
+        }
+
+        .new_list_con ul li{
+            height: 38px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .new_list_con ul a{
+            float: left;
+            height: 38px;
+            line-height: 38px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .new_list_con ul  a:hover{
+            color: red;
+        }
+        .new_list_con ul a:before{
+            content: "·";
+        }
+           .new_list_con ul span{
+               float: right;
+               height: 38px;
+               line-height: 38px;
+               text-decoration: none;
+               color: black;
+           }
+    </style>
+</head>
+<body>
+   <div class="new_list_con">
+       <h3><span>新闻列表</span></h3>
+       <ul>
+           <li><a href="">1、em标签 行内元素，表示语气中的强调词</a><span>2018-5-16</span></li>
+           <li><a href="">强加了语义，表示专业词汇</a><span>2018-5-16</span></li>
+           <li><a href="">内元素，原本没有语义，w3c强加了语义，表</a><span>2018-5-16</span></li>
+           <li><a href="">签，就是在布局的时候多使用语义化的</a><span>2018-5-16</span></li>
+           <li><a href="">是在布局的时候多使用语义化的标签，搜</a><span>2018-5-16</span></li>
+           <li><a href="">解文档的结构，方便网站的收录。比</a><span>2018-5-16</span></li>
+       </ul>
+   </div>
+</body>
+</html>

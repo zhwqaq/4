@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>布局实例</title>
+    <style type="text/css">
+        .meun{
+            list-style: none;
+            background-color: #55a8ea;
+            padding: 0px;
+            width:960px;
+            height:40px;
+            margin: 50px auto 0;
+            position: relative;
+        }
+
+        .meun li{
+            float: left;
+            width: 100px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        .meun li a{
+            /*font-size: 14px;*/
+            /*font-family: "Microsoft yahei";*/
+            /*color: #fff;*/
+            font: 14px/40px 'Microsoft yahei';
+            color: white;
+            text-decoration: none;
+        }
+
+        .meun li:hover{
+            background-color: #00619f;
+        }
+        .meun .active{
+            background-color: #00619f;
+        }
+
+        .meun .new{
+            width: 17px;
+            height: 15px;
+            background: url("../images/title_icon.gif") no-repeat;
+            position: absolute;
+            left: 306px;
+            top:0px;
+        }
+        
+        .meun .new:hover{
+            background: url("../images/title_icon.gif") no-repeat;
+        }
+    </style>
+</head>
+<body>
+<ul class="meun">
+    <li><a href="">首页</a></li>
+    <li class="active"><a href="">网站建设</a></li>
+    <li><a href="">二</a></li>
+    <li><a href="">耳热</a></li>
+    <li><a href="">非人防</a></li>
+    <li><a href="">3ewer</a></li>
+    <li><a href="">而额头</a></li>
+    <li class="new"></li>
+</ul>
+</body>
+</html>
